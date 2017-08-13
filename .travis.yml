@@ -32,9 +32,9 @@ install:
 
 # command to run tests
 script: 
-  - nosetests tests/* --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_alerta_8c58bc5565_1
-  - python -m properform Push 47.88.50.110:15554 asdf_alerta_8c58bc5565_1 ./profile_alerta_8c58bc5565_1
+  - nosetests tests/* --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_alerta_8c58bc5565_2
+  - python -m properform Push 47.88.50.110:15554 asdf_alerta_8c58bc5565_2 ./profile_alerta_8c58bc5565_2
 
 
 
- #2017-08-13 10:10:06 modified at 0 #2017-08-13 10:10:10 modified at 1
+ #2017-08-13 10:10:06 modified at 0 #2017-08-13 10:10:10 modified at 1 #2017-08-13 10:10:14 modified at 2
